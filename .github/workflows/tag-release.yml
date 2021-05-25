@@ -4,7 +4,7 @@
 # https://github.com/mathieudutour/github-tag-action#bumping
 
 
-name: Practera Release Tag Creation
+name: Release Tag Creation
 
 on: 
   workflow_dispatch:
@@ -28,7 +28,7 @@ jobs:
     env:
       REGION : us-east-2
       ENV : live # Valid values are sandbox,stage,live only
-      STACK_NAME: lf # Valid values are au,us,uk,p2,lf,nu,alpha,beta,shared only
+      STACK_NAME: test # Valid values are au,us,uk,p2,lf,nu,alpha,beta,shared only
       ROOTSTACK: release-tag
       CREATETAG: true
       RELEASE_VERSION: ${{ github.event.inputs.RELEASE_VERSION }} # Allowed values are : major, minor, patch or custom
