@@ -1,0 +1,19 @@
+{
+  "name": "tag-release",
+  "version": "1.0.0",
+  "description": "tag-release-test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codedoeseverything/tag-release.git"
+  },
+  "author": "Sunil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codedoeseverything/tag-release/issues"
+  },
+  "homepage": "https://github.com/codedoeseverything/tag-release#readme"
+}

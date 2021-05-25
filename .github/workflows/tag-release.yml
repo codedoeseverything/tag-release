@@ -12,7 +12,7 @@ on:
       RELEASE_VERSION:
         description: '# Allowed values are : major, minor, patch or custom: FORMAT: major:minor:patch'     
         required: true
-        default: 'major'
+        default: 'minor'
       RELEASE_BRANCH:
         description: '# Allowed values are : trunk only'     
         required: true
